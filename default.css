@@ -2,9 +2,28 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
   background-color: #565E76;
+  color: #ffffff;
+}
+
+ul.contact {
+  text-align: center;
+  margin-top: 48px;
+  margin-left: 920px;
+  width: 300px;
+}
+
+ul.contact li {
+  display: inline;
+  margin: 0px 10px;
+  font-size: 13pt;
+}
+
+ul.contact li a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 img.logo {
   width: 240px;
-  margin: 100px 40.5% 0px 40.5%;
+  margin: 15px 40.5% 0px 40.5%;
 }
