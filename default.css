@@ -5,7 +5,7 @@ body {
   text-align: center;
 }
 
-div.background {
+.background {
   position: absolute;
   top: 0px;
   z-index: -2;
@@ -15,7 +15,7 @@ div.background {
   background-size: cover;
 }
 
-div.overlay {
+.overlay {
   position: absolute;
   top: 0px;
   z-index: -1;
@@ -57,7 +57,7 @@ h1 {
   width: 90%;
 }
 
-div.promo {
+.promo {
   font-size: 13.5px;
   color: #A2A4AE;
 }
