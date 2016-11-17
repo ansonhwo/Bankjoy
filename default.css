@@ -6,7 +6,7 @@ body {
   text-align: center;
 }
 
-div.background {
+.background {
   position: absolute;
   background-image: url("https://bankjoy.com/assets/images/backgrounds/background.jpg");
   background-size: cover;
@@ -17,7 +17,7 @@ div.background {
   margin: 0px -30px 0px 0px;
 }
 
-div.overlay {
+.overlay {
   position: absolute;
   background-color: #565E76;
   top: 0px;
