@@ -41,3 +41,16 @@ div.promo {
   font-size: 14px;
   color: #c6c6c6;
 }
+
+button.demo {
+  margin-top: 50px;
+  height: 50px;
+  width: 200px;
+  background-color: #5373DA;
+  font-size: 16px;
+  color: #ffffff;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: #5373DA;
+  cursor: pointer;
+}
