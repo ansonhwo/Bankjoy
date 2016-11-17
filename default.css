@@ -6,6 +6,27 @@ body {
   text-align: center;
 }
 
+.background {
+  position: absolute;
+  background-image: url("https://bankjoy.com/assets/images/backgrounds/background.jpg");
+  background-size: cover;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+
+.overlay {
+  position: absolute;
+  background-color: #565E76;
+  top: 0px;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: .88;
+}
+
 ul.contact {
   margin-top: 48px;
   margin-left: 920px;
