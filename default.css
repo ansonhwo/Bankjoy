@@ -27,8 +27,9 @@ body {
 }
 
 ul.contact {
-  margin-top: 40px;
-  margin-left: 920px;
+  position: absolute;
+  top: 29px;
+  right: 29px;
   width: 300px;
 }
 
@@ -46,7 +47,7 @@ ul.contact li a {
 
 img.logo {
   width: 240px;
-  margin: 15px 40.5% 0px 40.5%;
+  margin: 100px 40.5% 0px 40.5%;
 }
 
 h1 {
@@ -78,40 +79,40 @@ button.demo {
 }
 
 .phones {
-  margin-top: 75px;
+  position: relative;
+  margin-top: 74px;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
+  width: 960px;
 }
 
 .phone1 {
   position: absolute;
-  top: 553px;
-  left: 17.9%;
+  top: 50px;
+  left: 69px;
   width: 310px;
   z-index: 2;
 }
 
 .phone2 {
   position: absolute;
-  top: 503px;
-  left: 37%;
+  left: 315px;
   width: 330px;
   z-index: 4;
 }
 
 .phone3 {
   position: absolute;
-  top: 553px;
-  left: 58%;
+  left: 582px;
+  top: 50px;
   width: 310px;
   z-index: 2;
 }
 
 .shadow {
   position: absolute;
-  top: 553px;
-  left: 30.5%;
+  top: 50px;
+  left: 230px;
   background-image: linear-gradient(to left,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 40%,rgba(0,0,0,1) 60%,rgba(0,0,0,0) 100%);
   z-index: 3;
   width: 500px;
